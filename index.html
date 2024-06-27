@@ -9,19 +9,34 @@
             color: #FDFDFD;
             letter-spacing: 1px;
             font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
         body {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
-            background: linear-gradient(#1C1C1C, #282828);
-            height: 100vh;
-            padding: 40px 10px;
+            background: linear-gradient(#191919, #1C1C1C);
+            padding: 100px 0 200px;
+        }
+        section {
+            max-width: 600px;
+        }
+        p {
+            margin: 7px auto;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+        }
+        li {
+            margin: 0 7px;
         }
         .header {
             font-weight: bold;
-            font-size: 62px;
+            font-size: 57px;
+            text-align: center;
         }
         .sect {
             display: flex;
@@ -29,17 +44,21 @@
             align-items: center;
             font-size: 18px;
             font-weight: normal;
+            margin: 30px 0;
         }
         .contacts {
             font-size: 12px;
         }
 
         @media(max-width: 787px) {
+            body {
+                padding: 50px 15px;
+            }
+            li {
+                margin: 7px;
+            }
             .header {
                 font-size: 31px;
-            }
-            p {
-                text-align: center;
             }
         }
     </style>
@@ -51,11 +70,11 @@
 
     <section class="sect">
         <p>MiKm ("us", "we", or "our") operates the MiKm mobile application (the "App").</p>
-        <p>_This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our App and the choices you have associated with that data._</p>
+        <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our App and the choices you have associated with that data.</p>
         <ul>
             <li><p>We do not collect any personally identifiable information from you when you use our App.</p></li>
-            <li><p>We do collect only usage data from interaction between you our app for analytics and third party advertismenting purposes.</p></li>
-            <li><p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes.</p></li>
+            <li><p>We only collect usage data from your interactions with you our App for analytics and third-party advertising purposes.</p></li>
+            <li><p>We may update our Privacy Policy from time to time. Therefore, you are advised to review this page periodically for any changes.</p></li>
             <li><p>This policy is effective as of 2024-06-27.</p></li>
             <li><p>If you have any questions about our Privacy Policy, please contact us by email: iamskalexet@gmail.com.</p></li>
         </ul>
